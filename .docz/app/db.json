@@ -1,0 +1,108 @@
+{
+  "config": {
+    "title": "Gatsby Starter Default",
+    "description": "A simple starter to get up and developing quickly with Gatsby",
+    "menu": [],
+    "version": "0.1.0",
+    "repository": "https://github.com/gatsbyjs/gatsby-starter-default",
+    "native": false,
+    "themeConfig": {
+      "initialColorMode": "dark"
+    },
+    "separator": "-",
+    "base": "/docs",
+    "src": "./src/docs/",
+    "gatsbyRemarkPlugins": [
+      {
+        "resolve": "gatsby-remark-copy-linked-files"
+      }
+    ]
+  },
+  "entries": [
+    {
+      "key": "src/docs/src/docs/guide/2018-09-29-a-post-with-images/index.md",
+      "value": {
+        "title": "A post with images",
+        "slug": "src-docs-src-docs-guide-2018-09-29-a-post-with-images-index",
+        "cover": "./cover.jpg",
+        "generate-card": false,
+        "date": "2018-09-29T00:00:00.000Z",
+        "language": "en",
+        "tags": [
+          "gatsby"
+        ],
+        "id": "3bbbc7470a41981da6c3697b5cfdd53d",
+        "filepath": "src/docs/src/docs/guide/2018-09-29-a-post-with-images/index.md",
+        "fullpath": "/home/homearanya/dev/docz-tester/src/docs/guide/2018-09-29-a-post-with-images/index.md",
+        "link": "",
+        "route": "/src-docs-src-docs-guide-2018-09-29-a-post-with-images-index",
+        "name": "Index",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "how-it-works",
+            "depth": 2,
+            "value": "How it works?"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/docs/src/docs/guide/getting-started/setup.md",
+      "value": {
+        "name": "Setup",
+        "route": "/docs/getting-started/setup",
+        "meta": [
+          {
+            "name": "description",
+            "content": "Botfront tutorial: setup Botfront and start building your Rasa chatbot"
+          },
+          {
+            "name": "keywords",
+            "content": "botfront stories nlu rasa"
+          }
+        ],
+        "permalink": "/getting-started/:slug",
+        "id": "7ca3562e47ba6510fa09bb6a8ec2413b",
+        "filepath": "src/docs/src/docs/guide/getting-started/setup.md",
+        "fullpath": "/home/homearanya/dev/docz-tester/src/docs/guide/getting-started/setup.md",
+        "link": "",
+        "slug": "src-docs-src-docs-guide-getting-started-setup",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "setup",
+            "depth": 1,
+            "value": "Setup"
+          },
+          {
+            "slug": "requirements",
+            "depth": 3,
+            "value": "Requirements"
+          },
+          {
+            "slug": "install-the-botfront-cli",
+            "depth": 3,
+            "value": "Install the Botfront CLI"
+          },
+          {
+            "slug": "create-a-new-project",
+            "depth": 3,
+            "value": "Create a new project"
+          },
+          {
+            "slug": "start-botfront",
+            "depth": 3,
+            "value": "Start Botfront"
+          },
+          {
+            "slug": "setup-your-project",
+            "depth": 3,
+            "value": "Setup your project"
+          }
+        ]
+      }
+    }
+  ],
+  "props": []
+}
